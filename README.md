@@ -1,1 +1,141 @@
-# VatieraPanel
+
+# 🌐 VatieraPanel
+
+![VatieraPanel Logo](https://via.placeholder.com/250x80.png?text=VatieraPanel)
+
+**VatieraPanel** is a modern, modular hosting control panel inspired by **Pterodactyl Panel**. Designed to simplify server management, monitoring, and running applications, VatieraPanel provides a powerful and scalable architecture for developers, admins, and server owners.  
+
+> ⚠️ Note: This project is currently in **early development**. Features will expand over time.
+
+---
+
+## 📁 Project Structure
+
+vatierapanel/ ├─ panel/        # Web Panel (frontend & backend API) ├─ wings/        # Agent/daemon for each server └─ eggs/         # Server templates (Docker image & initial settings)
+
+---
+
+## ⚙️ Technologies
+
+| Component | Technology / Stack | Description |
+|-----------|-----------------|-------------|
+| **Panel (Frontend)** | React + TailwindCSS | Modern UI, responsive dashboard, mobile-friendly |
+| **Panel (Backend)** | Node.js + Express | REST API + WebSocket for realtime communication |
+| **Database** | PostgreSQL + Redis | Main database + caching / queue system |
+| **Wings (Agent)** | Go (Golang) | Runs Docker containers, monitors resources, executes commands |
+| **Eggs** | JSON/YAML templates | Server templates: Minecraft, Node.js, PHP, SA-MP, FiveM |
+
+---
+
+## 🎯 Features (Early Stage)
+
+- 🔐 **Login/Register** (JWT-based, simple auth)  
+- 🖥 **Dashboard** to view multiple servers  
+- ⚡ **Real-time console** (WebSocket, instant server logs)  
+- 🗂 **Project structure ready** for expansion  
+
+> Advanced features such as File Manager, Billing System, Scheduler, and Egg Loader will be added in later phases.
+
+---
+
+## 🛠 Roadmap
+
+### Phase 1 – Panel Foundation
+- Backend setup (Node.js + PostgreSQL)  
+- Frontend setup (React + TailwindCSS)  
+- Authentication system + basic dashboard  
+
+### Phase 2 – Wings (Agent)
+- Run server agent  
+- Connect agent to Panel  
+- Run Docker containers (start/stop/restart)  
+
+### Phase 3 – Core Panel Features
+- File manager (upload, download, edit)  
+- Console log real-time  
+- Resource monitoring: CPU, RAM, Disk  
+
+### Phase 4 – Egg System
+- Standard template format (JSON/YAML)  
+- Loader for Docker images & environment variables  
+- Support for multiple server types (Minecraft, Node.js, etc.)  
+
+### Phase 5 – Advanced
+- Scheduler: automatic backup & restart  
+- Billing system & subscription management  
+- Subuser / permissions system  
+- Public API for automation  
+
+---
+
+## 🌟 Additional Highlights
+
+- 🎨 **Premium UI**: Clean, modern, responsive, mobile-first  
+- ⚡ **Realtime Updates**: WebSocket-based communication  
+- 🔒 **Secure**: JWT auth + optional 2FA in future versions  
+- 📈 **Monitoring**: Live CPU, RAM, Disk usage graphs  
+- 🧩 **Modular Design**: Easily add new Eggs / server templates  
+- 🌐 **Global Ready**: Multi-server, multi-user support  
+
+---
+
+## 🖼 Screenshots (Placeholder)
+
+![Dashboard](https://via.placeholder.com/600x300.png?text=Dashboard+Preview)  
+![Console](https://via.placeholder.com/600x300.png?text=Realtime+Console)  
+![Monitoring](https://via.placeholder.com/600x300.png?text=Resource+Monitoring)
+
+---
+
+## 💾 Installation (Early Stage)
+
+1. Clone repository:  
+```bash
+git clone https://github.com/yourusername/vatierapanel.git
+
+2. Install backend dependencies:
+
+
+
+cd panel
+npm install
+
+3. Setup database (PostgreSQL + Redis)
+
+
+4. Start development server:
+
+
+
+npm run dev
+
+> Wings and Egg system setup coming in next phase.
+
+
+
+
+---
+
+📌 Notes
+
+Project still in early development
+
+Contributions, testing, and feedback are welcome
+
+Full documentation and setup guide will be updated in future phases
+
+
+
+---
+
+⚖️ License
+
+MIT License – Free to use, modify, and distribute.
+
+
+---
+
+📬 Contact
+Website: https://vatierapanel.example.com
+GitHub: https://github.com/yourusername/vatierapanel
+Discord / Support: Coming soon
