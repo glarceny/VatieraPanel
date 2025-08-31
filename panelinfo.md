@@ -64,7 +64,7 @@ Preferred communication style: Simple, everyday language.
 - **Lucide React**: Icon library for consistent iconography
 
 ## Development Tools
-- **Replit Integration**: Vite plugins for Replit-specific development features
+- **Orbit Integration**: Vite plugins for OrbitCloud-specific development features
 - **ESBuild**: Fast JavaScript bundler for server-side code
 - **Drizzle Kit**: Database schema management and migration tools
 
