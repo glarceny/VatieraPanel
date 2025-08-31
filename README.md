@@ -20,7 +20,7 @@ vatierapanel/ ├─ panel/        # Web Panel (frontend & backend API) ├─ w
 | **Panel (Frontend)** | React + TailwindCSS | Modern UI, responsive dashboard, mobile-friendly |
 | **Panel (Backend)** | Node.js + Express | REST API + WebSocket for realtime communication |
 | **Database** | PostgreSQL + Redis | Main database + caching / queue system |
-| **Wings (Agent)** | Go (Golang) | Runs Docker containers, monitors resources, executes commands |
+| **Wings (Agent)** | Go/TypeScript | Runs Docker containers, monitors resources, executes commands |
 | **Eggs** | JSON/YAML templates | Server templates: Minecraft, Node.js, PHP, SA-MP, FiveM |
 
 ---
