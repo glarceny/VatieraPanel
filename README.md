@@ -1,8 +1,6 @@
 
 # 🌐 VatieraPanel
 
-![VatieraPanel Logo](https://via.placeholder.com/250x80.png?text=VatieraPanel)
-
 **VatieraPanel** is a modern, modular hosting control panel inspired by **Pterodactyl Panel**. Designed to simplify server management, monitoring, and running applications, VatieraPanel provides a powerful and scalable architecture for developers, admins, and server owners.  
 
 > ⚠️ Note: This project is currently in **early development**. Features will expand over time.
@@ -76,66 +74,3 @@ vatierapanel/ ├─ panel/        # Web Panel (frontend & backend API) ├─ w
 - 📈 **Monitoring**: Live CPU, RAM, Disk usage graphs  
 - 🧩 **Modular Design**: Easily add new Eggs / server templates  
 - 🌐 **Global Ready**: Multi-server, multi-user support  
-
----
-
-## 🖼 Screenshots (Placeholder)
-
-![Dashboard](https://via.placeholder.com/600x300.png?text=Dashboard+Preview)  
-![Console](https://via.placeholder.com/600x300.png?text=Realtime+Console)  
-![Monitoring](https://via.placeholder.com/600x300.png?text=Resource+Monitoring)
-
----
-
-## 💾 Installation (Early Stage)
-
-1. Clone repository:  
-```bash
-git clone https://github.com/yourusername/vatierapanel.git
-
-2. Install backend dependencies:
-
-
-
-cd panel
-npm install
-
-3. Setup database (PostgreSQL + Redis)
-
-
-4. Start development server:
-
-
-
-npm run dev
-
-> Wings and Egg system setup coming in next phase.
-
-
-
-
----
-
-📌 Notes
-
-Project still in early development
-
-Contributions, testing, and feedback are welcome
-
-Full documentation and setup guide will be updated in future phases
-
-
-
----
-
-⚖️ License
-
-MIT License – Free to use, modify, and distribute.
-
-
----
-
-📬 Contact
-Website: https://vatierapanel.example.com
-GitHub: https://github.com/yourusername/vatierapanel
-Discord / Support: Coming soon
